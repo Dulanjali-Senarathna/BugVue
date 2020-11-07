@@ -6,7 +6,6 @@ E:\BugVue\BugVue\bin\Debug\netcoreapp2.1\BugVue.dll
 E:\BugVue\BugVue\bin\Debug\netcoreapp2.1\BugVue.pdb
 E:\BugVue\BugVue\bin\Debug\netcoreapp2.1\BugVue.Views.dll
 E:\BugVue\BugVue\bin\Debug\netcoreapp2.1\BugVue.Views.pdb
-E:\BugVue\BugVue\obj\Debug\netcoreapp2.1\BugVue.csprojAssemblyReference.cache
 E:\BugVue\BugVue\obj\Debug\netcoreapp2.1\BugVue.AssemblyInfoInputs.cache
 E:\BugVue\BugVue\obj\Debug\netcoreapp2.1\BugVue.AssemblyInfo.cs
 E:\BugVue\BugVue\obj\Debug\netcoreapp2.1\BugVue.csproj.CoreCompileInputs.cache
@@ -25,3 +24,4 @@ E:\BugVue\BugVue\obj\Debug\netcoreapp2.1\BugVue.dll
 E:\BugVue\BugVue\obj\Debug\netcoreapp2.1\BugVue.pdb
 E:\BugVue\BugVue\obj\Debug\netcoreapp2.1\BugVue.genruntimeconfig.cache
 E:\BugVue\BugVue\obj\Debug\netcoreapp2.1\BugVue.csproj.CopyComplete
+E:\BugVue\BugVue\obj\Debug\netcoreapp2.1\BugVue.csprojAssemblyReference.cache

@@ -17,7 +17,11 @@ namespace BugVue
         
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
             services.AddDbContext<BugDb>(options => options.UseSqlite("DataSource = bug.db"));
+
+            
+
         }
 
        
@@ -31,6 +35,8 @@ namespace BugVue
                     );
             }
             );
+
+           
         }
     }
 }
