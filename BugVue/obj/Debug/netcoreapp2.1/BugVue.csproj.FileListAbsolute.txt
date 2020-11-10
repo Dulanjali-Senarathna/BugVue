@@ -1,3 +1,4 @@
+E:\BugVue\BugVue\bin\Debug\netcoreapp2.1\libman.json
 E:\BugVue\BugVue\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
 E:\BugVue\BugVue\bin\Debug\netcoreapp2.1\BugVue.deps.json
 E:\BugVue\BugVue\bin\Debug\netcoreapp2.1\BugVue.runtimeconfig.json
