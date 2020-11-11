@@ -9,6 +9,7 @@
                 <th>#</th>
                 <th>Name</th>
                 <th>Description</th>
+                <th></th>
             </tr>
         </thead>
 
@@ -17,6 +18,9 @@
                 <td>{{index+1}}</td>
                 <td>{{bug.name}}</td>
                 <td>{{bug.description}}</td>
+                <td>
+                    <button class="btn btn-danger" v-on:click="removeBug(bug,index)">Remove</button>
+                </td>
             </tr>
         </tbody>
     </table>
@@ -69,6 +73,18 @@
         },
         methods: {
 
+            removeBug: function (bug, index) {
+                var vm = this;
+
+                $.ajax({ url: "/bug", data: bug, method: "DELETE" })
+                    .done(function (data) {
+                        vm.bugs.splice(index, 1);
+                        toastr.success("Success");
+                    }).fail(function () {
+                        toastr.error("Error");
+                    });
+            },
+
             showNewBugModal: function () {
                 $("#addNewBugModal").modal("show");
             },
@@ -101,7 +117,7 @@
                 $.ajax({ url: "/bug", method: "GET" })
                     .done(function (data) {
                         vm.bugs = data;
-                        toastr.success("Success");
+                        //toastr.success("Success");
                     }).fail(function () {
                         toastr.error("Error");
                     });
